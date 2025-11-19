@@ -5,14 +5,16 @@ const Welcome = () => {
     return (
         <div className='w-full'>
             <div className='wrapper'>
-                <div className='grid md:grid-cols-2 gap-10 md:gap-20 justify-center items-center'>
+                <div className="grid md:grid-cols-2 gap-10 md:gap-20 items-center">
+                    {/* Image: first on mobile, second on md+ */}
                     <img
                         src="/menu/food.webp"
-                        alt='welcome image'
-                        className='w-full md:w-[554px] rounded-3xl object-cover'
+                        alt="welcome image"
+                        className="order-2 md:order-1 w-full md:w-[554px] rounded-3xl object-cover"
                     />
 
-                    <div>
+                    {/* Text: second on mobile, first on md+ */}
+                    <div className="order-1 md:order-2">
                         <h1 className="heading2">
                             Welcome to Indian Grill Wrap &amp; Go
                         </h1>
@@ -25,7 +27,7 @@ const Welcome = () => {
                         </p>
                         <p className="heading3 mt-4 text-justify">
                             Build the meal you are craving with our sub‑menus for wraps,
-                            wings, tandoori, seafood, chicken, goat, lamb, beef, biryani,
+                            tandoori, seafood, chicken, goat, lamb, beef, biryani,
                             breads, desserts, beverages, and more. Whether you are grabbing a
                             quick wrap to go or sharing a full spread with friends, our menu
                             is designed for mixing, matching, and discovering new favorites.
@@ -33,7 +35,7 @@ const Welcome = () => {
                     </div>
                 </div>
 
-                <div className='grid md:grid-cols-2 gap-10 md:gap-20 mt-20 justify-center items-center'>
+                <div className='grid md:grid-cols-2 gap-10 md:gap-20 mt-8 sm:mt-20 justify-center items-center'>
                     <div>
                         <h2 className="heading2">
                             So Many Ways to Build Your Plate

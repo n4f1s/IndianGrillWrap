@@ -21,11 +21,11 @@ function OrderFrom() {
 
           {/* Content inside the image */}
           <div className="absolute left-6 right-6 md:left-10 md:right-auto bottom-5 md:top-1/2 md:-translate-y-1/2">
-            <div className="bg-white/80 text-black max-w-xl py-12 px-12 rounded-xl md:rounded-2xl">
+            <div className="bg-white/90 text-black max-w-xl py-12 px-12 rounded-xl md:rounded-2xl">
               <h2 className="text-2xl sm:text-3xl font-semibold leading-tight">
                 Order From Our Website
               </h2>
-              <p className="mt-3 text-black/70 leading-relaxed">
+              <p className="mt-3 text-black/70 leading-relaxed text-sm sm:text-base">
                 Craving the bold, authentic flavors of Indian Grill Wrap & Go? Skip the wait and order directly from our website—fast, fresh, and just a few clicks away, for delivery or pickup whenever you need it. Taste convenience today!
               </p>
               <div className="mt-5">

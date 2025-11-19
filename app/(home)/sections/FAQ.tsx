@@ -68,7 +68,7 @@ export default function FAQ() {
   return (
     <section
       id="faq"
-      className="bg-white py-12 sm:py-16"
+      className="bg-white"
       aria-labelledby="faq-heading"
     >
       <div className="wrapper mx-auto max-w-4xl px-4">

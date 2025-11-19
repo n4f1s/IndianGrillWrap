@@ -5,7 +5,7 @@ const Taste = () => {
     return (
         <div className='w-full'>
             <div className='wrapper'>
-                <div className='grid md:grid-cols-2 gap-10 md:gap-20 mt-20 justify-center items-center'>
+                <div className='grid md:grid-cols-2 gap-10 md:gap-20 justify-center items-center'>
                     <div>
                         <h1 className='heading2'>
                             Taste & Flavour at Indian Grill Wrap & Go
