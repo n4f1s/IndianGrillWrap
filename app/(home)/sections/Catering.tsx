@@ -11,7 +11,7 @@ const Catering = () => {
                             Catering With Flavor
                         </h1>
                         <p className='heading3 mt-4 text-justify'>
-                            Make your next event unforgettable with Halal Havën’s catering services! Whether it’s a corporate gathering, family celebration, or special occasion, we bring the bold, authentic tastes of Mediterranean and Halal American cuisine straight to your table. Enjoy quality, convenience, and a menu tailored to satisfy every guest.
+                            Make your next event unforgettable with Indian Grill Wrap & Go catering services! Whether it’s a corporate gathering, family celebration, or special occasion, we bring the bold, authentic tastes of Mediterranean and Halal American cuisine straight to your table. Enjoy quality, convenience, and a menu tailored to satisfy every guest.
                         </p>
                         <Button className='mt-8'>
                             Order Catering
@@ -19,7 +19,7 @@ const Catering = () => {
                     </div>
 
                     <img
-                        src="/home/hero/hero2.webp"
+                        src="/home/catering.webp"
                         alt='Taste image'
                         className='w-[554px] rounded-3xl object-cover'
                     />

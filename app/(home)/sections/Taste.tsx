@@ -19,7 +19,7 @@ const Taste = () => {
                     </div>
 
                     <img
-                        src="/home/hero/hero2.webp"
+                        src="/home/taste.webp"
                         alt='Taste image'
                         className='w-[554px] rounded-3xl object-cover'
                     />

@@ -8,7 +8,7 @@ function OrderFrom() {
         <div className="relative rounded-3xl overflow-hidden min-h-[600px]">
           {/* Background image */}
           <Image
-            src="/home/orderFrom.webp"
+            src="/home/orderFrom2.webp"
             alt="Order from our website"
             fill
             priority={false}
@@ -16,7 +16,7 @@ function OrderFrom() {
             className="object-cover"
           />
 
-          {/* Legibility overlay */}
+          {/* overlay */}
           <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/35 to-transparent" />
 
           {/* Content inside the image */}

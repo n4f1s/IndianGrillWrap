@@ -1,4 +1,5 @@
 import Catering from "./sections/Catering"
+import FAQ from "./sections/FAQ"
 import Featured from "./sections/Featured"
 import HeroSwiper from "./sections/HeroSwiper"
 import OrderFrom from "./sections/OrderFrom"
@@ -19,6 +20,7 @@ function HomePage() {
             <Savor />
             <Catering />
             <Testimonials />
+            <FAQ />
         </>
     )
 }

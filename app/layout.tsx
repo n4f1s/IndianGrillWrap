@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/ui/Navbar";
+import ChatWidget from "@/components/ui/ChatWidget";
+import Footer from "@/components/ui/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +34,8 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+         <ChatWidget />
+         <Footer />
       </body>
     </html>
   );

@@ -43,7 +43,7 @@ const slides: Slide[] = [
 export default function HeroSwiper() {
     return (
         <section aria-label="Featured dishes and dining experience" className="w-full">
-            <div className="h-[calc(100vh-80px)] min-h-[620px] relative">
+            <div className="h-[calc(100vh-80px)] min-h-[520px] relative">
                 <Swiper
                     modules={[Pagination, Autoplay, A11y, EffectFade]}
                     slidesPerView={1}

@@ -7,39 +7,60 @@ const Welcome = () => {
             <div className='wrapper'>
                 <div className='grid md:grid-cols-2 gap-10 md:gap-20 justify-center items-center'>
                     <img
-                        src="/home/hero/hero1.webp"
+                        src="/menu/food.webp"
                         alt='welcome image'
                         className='w-full md:w-[554px] rounded-3xl object-cover'
                     />
 
                     <div>
-                        <h1 className='heading2'>
-                            Welcome To Indian Grill Wrap & Go
+                        <h1 className="heading2">
+                            Welcome to Indian Grill Wrap &amp; Go
                         </h1>
-                        <p className='heading3 mt-4 text-justify'>
-                            Experience the rich fusion of Mediterranean and Halal American cuisine at Indian Grill Wrap & Go. Located at 173-73 106th Ave, Jamaica, NY, we serve authentic flavors made with the finest ingredients and a passion for quality. Our menu blends tradition, purity, and bold creativity. Whether you're dining in or on the go, Indian Grill Wrap & Go brings heart, heritage, and unforgettable taste to every meal.
+                        <p className="heading3 mt-4 text-justify">
+                            Explore more than 70 dishes at Indian Grill Wrap &amp; Go – from
+                            loaded wraps, burgers, and rice platters to slow-cooked curries,
+                            grilled tandoori specialties, and fresh salads. Every item is
+                            cooked Halal, with plenty of vegetarian and vegan‑friendly choices
+                            so everyone at the table finds something they love.
+                        </p>
+                        <p className="heading3 mt-4 text-justify">
+                            Build the meal you are craving with our sub‑menus for wraps,
+                            wings, tandoori, seafood, chicken, goat, lamb, beef, biryani,
+                            breads, desserts, beverages, and more. Whether you are grabbing a
+                            quick wrap to go or sharing a full spread with friends, our menu
+                            is designed for mixing, matching, and discovering new favorites.
                         </p>
                     </div>
                 </div>
 
                 <div className='grid md:grid-cols-2 gap-10 md:gap-20 mt-20 justify-center items-center'>
+                    <div>
+                        <h2 className="heading2">
+                            So Many Ways to Build Your Plate
+                        </h2>
+                        <p className="heading3 mt-4 text-justify">
+                            Start with what you are craving – a warm wrap, a rice platter, or
+                            a creamy curry – then layer on grilled tandoori meats, hearty
+                            goat and lamb dishes, seafood specials, or vegetable curries and
+                            paneer. Add salads, lentil sides, fresh naan, and chutneys to
+                            complete your perfect plate.
+                        </p>
+                        <p className="heading3 mt-4 text-justify">
+                            With clear sub‑menus for every category, it is easy to find your
+                            favorites fast or try something new each visit. From light, veggie
+                            options to rich, slow‑cooked specialties, Indian Grill Wrap
+                            &amp; Go gives you a lot of choice without feeling overwhelming.
+                        </p>
+                        <Button href="/menu" className="mt-8">
+                            Explore Full Menu
+                        </Button>
+                    </div>
+
                     <img
-                        src="/home/hero/hero2.webp"
+                        src="/menu/chicken.webp"
                         alt='welcome image'
                         className='w-[554px] rounded-3xl object-cover'
                     />
-
-                    <div>
-                        <h1 className='heading2'>
-                            Flavored Wings Now 41 Flavor
-                        </h1>
-                        <p className='heading3 mt-4 text-justify'>
-                            Discover the ultimate wing experience at Indian Grill Wrap & Go in Jamaica, NY — now serving 41 incredible flavored wings! From Honey BBQ and Garlic Parmesan to bold favorites like Ghost Pepper and Mango Habanero, every bite is cooked fresh to order for perfect flavor and crunch. Choose your size — 5, 10, 20, 50, or even 200 pieces — and taste why Indian Grill Wrap & Go is the go-to spot for the best halal wings in New York.
-                        </p>
-                        <Button href='/menu' className='mt-8'>
-                            Order Now
-                        </Button>
-                    </div>
                 </div>
             </div>
         </div>

@@ -8,8 +8,8 @@ type BaseProps = {
   variant?: 'primary' | 'secondary';
   className?: string;
   children: React.ReactNode;
-  icon?: boolean; // show the chevron→arrow animation
-  srLabel?: string; // accessible name if children are decorative
+  icon?: boolean; 
+  srLabel?: string; 
 } & React.ComponentPropsWithoutRef<'button'>;
 
 type AnchorProps = Omit<React.ComponentPropsWithoutRef<'a'>, 'children'> & {

@@ -8,7 +8,8 @@
   --background: #ffffff;
   --foreground: #0a0a0a;
 }
-
+/* #AF0026 */
+/* "#0F5A2A" */
 @theme inline {
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
@@ -30,7 +31,6 @@ body {
   color: var(--foreground);
   font-family: var(--font-poppins), sans-serif;
 }
-
 
 .wrapper {
   @apply sm:px-12 px-4 py-8 sm:py-12 max-w-[1350px] w-full h-full mx-auto relative;
